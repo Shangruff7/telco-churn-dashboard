@@ -160,7 +160,7 @@ def load_data():
             """)
             return raw
     except Exception as e:
-        st.error(f"Connection error: {e}")
+        st.error(f"Connection error: {type(e).__name__}: {str(e)}")
         st.stop()
 
 raw = load_data()
