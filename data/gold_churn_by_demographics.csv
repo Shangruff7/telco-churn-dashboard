@@ -1,0 +1,9 @@
+SeniorCitizen,Partner,Dependents,total_customers,churned,churn_rate_pct
+0,Yes,No,1163,242,20.81
+0,Yes,Yes,1666,229,13.75
+1,Yes,No,490,178,36.33
+1,No,Yes,8,2,25.0
+1,No,No,561,276,49.2
+1,Yes,Yes,83,20,24.1
+0,No,No,2719,847,31.15
+0,No,Yes,353,75,21.25
