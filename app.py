@@ -134,8 +134,6 @@ h1, h2, h3 { color: #f1f5f9 !important; font-family: Arial, sans-serif !importan
 DATABRICKS_HOST = "dbc-a11fb796-04ab.cloud.databricks.com"
 HTTP_PATH       = "/sql/1.0/warehouses/1af7885e514fcf3e"
 TOKEN           = os.environ.get("DATABRICKS_TOKEN")
-st.write(f"Token loaded: {bool(TOKEN)} | Length: {len(TOKEN) if TOKEN else 0}")
-
 
 @st.cache_data(ttl=3600)
 def load_data():
