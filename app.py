@@ -141,7 +141,8 @@ def load_data():
         with sql.connect(
             server_hostname=DATABRICKS_HOST,
             http_path=HTTP_PATH,
-            access_token=TOKEN
+            access_token=TOKEN,
+            _tls_no_verify=True
         ) as conn:
             def q(query):
                 with conn.cursor() as cur:
